@@ -2,14 +2,22 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 
-const add = (number1, number2) => number1 + number2;
+function add(number1, number2) {
+    return number1 + number2;
+}
 
 
-const subtract = (number1, number2) => number1 - number2;
+function subtract(number1, number2) {
+   return number1 - number2;
+}
 
-const multiply = (number1, number2) => number1 * number2;
+function multiply(number1, number2) {
+    return number1 * number2;
+}
 
-const divide = (number1, number2) => number1 / number2;
+function divide(number1, number2) {
+    return number1 / number2;
+}
 
 let number1 = 0;
 let number2 = 0;
